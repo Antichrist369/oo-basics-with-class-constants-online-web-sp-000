@@ -13,7 +13,7 @@ class Shoe
   end
   
   def brands=(brands)
-    @brand = brand 
+    @brands = unique
   end 
 
 end
