@@ -13,8 +13,8 @@ class Shoe
   end
   
   def brands=(brand)
-    @brand.each = brand
-    BRANDS >> brand
+    @brand.clear = brand
+    BRANDS << brand
   end 
 
 end
