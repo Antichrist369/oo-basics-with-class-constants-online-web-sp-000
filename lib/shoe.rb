@@ -12,9 +12,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def brands=(brand)
-    @brand.clear = brand
-    BRANDS << brand
+  def brands=(brand, umique)
+    @brand = brand
+    BRANDS << unique
   end 
 
 end
