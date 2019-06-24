@@ -13,7 +13,8 @@ class Shoe
   end
   
   def brands=(brands)
-    @brands = unique
+    @brands = brands
+    BRANDS << brands
   end 
 
 end
