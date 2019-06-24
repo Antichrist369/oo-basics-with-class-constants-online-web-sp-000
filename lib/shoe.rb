@@ -15,5 +15,6 @@ class Shoe
   def brands=(brand)
     brand.include? = (brand)
     BRANDS << brand
+  end
 
 end
